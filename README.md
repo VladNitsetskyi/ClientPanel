@@ -6,7 +6,8 @@ Application data is stored on Google Firebase. ( https://firebase.google.com/ )
 In order to try this app online, please follow the link - https://customer-pannel.firebaseapp.com/
 
 
-ClientPanel app functionality:
+# ClientPanel app functionality:
+
 1. User's Registration/ Login / Logout.
 2. Create/Edit/Delete clients.
 3. Manage client's information: 
@@ -21,7 +22,7 @@ ClientPanel app functionality:
 
 
 
-Short description of app usage :
+# Short description of app usage :
 
 1. First time being on page you need to register. Use any email and password to try this app(no email confirmation required).
  Without being registered no data will be displayed.
