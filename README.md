@@ -1,8 +1,8 @@
 # Clientpannel
 
-This project was developed using Angular 6.
-Application data is stored on Google Firebase.
-UI build with Bootstrap 4.
+This project was developed using Angular 6. 
+Application data is stored on Google Firebase. 
+UI build with Bootstrap 4. 
 
 Try this app online, by the following link - https://customer-pannel.firebaseapp.com/
 
