@@ -1,27 +1,38 @@
 # Clientpannel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+This project was developed using Angular 6.
+Application data is stored on Google Firebase. ( https://firebase.google.com/ )
 
-## Development server
+In order to try this app online, please follow the link - https://customer-pannel.firebaseapp.com/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+ClientPanel app functionality:
+1. User's Registration/ Login / Logout.
+2. Create/Edit/Delete clients.
+3. Manage client's information: 
+ - See/change balance;
+ - See/change client's data(email,phone,first and last name and UID(read only as it's randomly generated per each client));
+ - See total owed balance amount of all clients;
+4. Manage app settings in Settings page:
+ - Allow Registration;
+ - Disable/enable entering client's balance when adding new client;
+ - Disable/enable entering client's balance when editing existing client;
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+Short description of app usage :
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. First time being on page you need to register. Use any email and password to try this app(no email confirmation required).
+ Without being registered no data will be displayed.
+ 
+2. After registration you will be automatically logged in. Existing data will be retrieved from Google Firestorm database and displayed on dashboard screen.
 
-## Running end-to-end tests
+3. With 'New' button you may create new client with it's personal information which will be sotred in Google Firestorm database(not localy).
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+4. With 'Deatails' button you may check client's personal info.
 
-## Further help
+5. With 'Settings' link on  top navigation bar you may change app settings (settings description are self explanatory).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+6. Use 'Logout' button to logout from app.
+
