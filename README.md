@@ -37,4 +37,4 @@ Try this app online, by the following link - https://customer-pannel.firebaseapp
 5. With 'Settings' link on  top navigation bar you may change app settings (settings description are self explanatory).
 
 6. Use 'Logout' button to logout from app.
-
+ 
