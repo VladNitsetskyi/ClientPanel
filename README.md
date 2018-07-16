@@ -3,7 +3,7 @@
 This project was developed using Angular 6.
 Application data is stored on Google Firebase. ( https://firebase.google.com/ )
 
-In order to try this app online, please follow the link - https://customer-pannel.firebaseapp.com/
+Try this app online, by the following link - https://customer-pannel.firebaseapp.com/
 
 
 # ClientPanel app functionality:
